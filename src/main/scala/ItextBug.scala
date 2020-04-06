@@ -23,6 +23,6 @@ object ItextBug extends App {
   saveAsPdf(out, html, "landscape")
 
   // This version works
-//  saveAsPdf(out, html, Some("portrait"))
+//  saveAsPdf(out, html, "portrait")
 }
 
